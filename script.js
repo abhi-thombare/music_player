@@ -51,7 +51,7 @@ audio.addEventListener("timeupdate", () => {
     progress.value = (audio.currentTime / audio.duration) * 100;
 });
 
- Seek music
+ //Seek music
 function seekMusic() {
     audio.currentTime = (progress.value * audio.duration) / 100;
 }
