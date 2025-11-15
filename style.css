@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player{
+  width: 350px;
+  padding: 25px;
+  background: #ffffffcc;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.player h2{
+  margin-bottom: 10px;
+}
+
+.controls button{
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  transition: 0.3s;
+}
+
+.controls button:hover{
+  transform: scale(1.1);
+}
+
+#progress{
+  width: 100%;
+  margin-top: 20px;
+}
